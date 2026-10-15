@@ -12,6 +12,7 @@ void runSignup() {
 
     if (usernameExists(username)) {
         std::cout << "Username tidak tersedia!\n";
+        return;
     }
 
     std::cout << "Masukan password baru; ";
